@@ -1,0 +1,270 @@
+body{
+    margin: 0;
+    /* background-color: black; */
+}
+.main{
+    display: flex;
+    margin: 0;
+   
+}
+
+
+.sidebar{
+    height: 95vh;
+    width: 400px;
+    background-color: black;
+    padding: 0.5rem;
+}
+
+.sidebar-div1{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(25, 25, 25);
+    /* margin-top: 5px; */
+    color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+
+.home i,a , .search i,a{
+    opacity: 0.6;
+    margin-left: 1.2rem;
+    text-decoration: none;
+    color: white;
+    padding: 2px 2px;
+    margin-top: 5px;
+    cursor: pointer;
+} 
+
+.search i:hover,a:hover{
+    opacity: 1;
+}
+
+
+.sidebar-div2{
+    height: 550px;
+    width: 100%;
+   margin-top: 0.75rem;
+   background-color: rgb(25, 25, 25);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+
+.library{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+   cursor: pointer;
+}
+
+.content i,span{
+    margin-left: 0.7rem;
+    /* cursor: pointer; */
+}
+
+.icons i,span{
+    margin-right: 1.2rem;
+    /* cursor: pointer; */
+}
+
+.playlist,.podcast{
+    height: 140px;
+    width: 90%;
+    background-color: rgb(33, 32, 34);
+   color: white;  
+   padding: 1px 0 2rem 1rem;
+   border-radius: 10px; 
+   font-weight: bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-top: 16px;
+   margin-left: 10px;
+}
+
+
+button{
+    width: fit-content;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    border: none;
+    background-color: whitesmoke;
+    padding: 0.8rem;
+    border-radius: 25px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+
+.section{
+    background-color: rgb(25, 25, 25);
+    height: 95vh;
+    /* flex: 1; */
+    overflow: auto;
+    width: 1200px;
+    /* padding: 0.2rem; */
+} 
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    position: sticky;
+    top: 0;
+    /* z-index: 1; */
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    cursor: pointer;
+}
+
+
+.arrows i {
+    background-color: rgb(30, 29, 29);
+    border-radius: 50%;
+    color: white;
+ 
+   padding: 10px;
+}
+
+.buttons button,i{
+    margin-right: 1rem;
+}
+
+.sectiondivs{
+    width: 100%;
+    height: auto;
+
+}
+
+.cardheading{
+    color: white;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.cardheading span{
+    font-size: 0.85rem;
+    margin-right: 3rem;
+}
+
+.divcards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 300px;
+    width: 170px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(32, 30, 30);
+    color: white;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+img{
+    height: 150px;
+    width:100%;
+    border-radius: 10px;
+    background-size: contain;
+}
+
+.line{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.line hr{
+    /* height: 2px; */
+    width: 90%;
+   
+    /* border-top: 5px solid black; */
+    /* /* border: none; */
+} 
+
+.footer{
+    background-color: rgb(18, 18, 18);
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.name,.controls,.vol{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* font-size: 1.1rem; */
+    
+}
+.name{
+    margin-left: 2.5rem;
+}
+.vol{
+    margin-right: 2.5rem;
+}
+
+.controls{
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+}
+
+.controls .one{
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+.name img{
+  height: 40px;
+  width: 40px;
+}
+
+.progress{
+    appearance: none;
+    height: 6px;
+    width: 100%;
+    background-color: transparent;
+   
+}
+
+.progress::-webkit-slider-runnable-track{
+    background-color: green;
+    height: 6px;
+    width: 100%;
+    border-radius: 1rem;
+
+}
+
+.progress::-webkit-slider-thumb{
+    appearance: none;
+    background-color: blue;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-top: -0.25rem;
+}
+
+
+
+
+
