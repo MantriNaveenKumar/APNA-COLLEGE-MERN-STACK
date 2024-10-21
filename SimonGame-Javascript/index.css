@@ -1,0 +1,25 @@
+.button{
+    height: 120px;
+    width: 120px;
+    border: 5px solid black;
+}
+
+#blue{
+background-color: blue;
+}
+
+#yellow{
+background-color: yellow;
+}
+
+#ash{
+background-color: rgb(99, 97, 95);
+}
+
+#red{
+background-color: red;
+}
+
+.flash{
+    background-color:white !important;
+}
